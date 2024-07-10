@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de texto</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <header class="header">
+        
+    </header>
+    <div class="padre">
+        <img src="./assets/Logo.png" class="logo">
+        <div class="div__texarea">
+            <textarea id="texto" class="text__area" cols="30" rows="10" placeholder="Ingrese el texto aqui"></textarea>
+            <div class="img__p">
+                <img class="exclamation__img" src="./assets/Vector.png">
+                <p class="nota__p">Solo letras minúsculas y sin acentos</p>
+            </div>
+            <div class="botones">
+            <button onclick="encriptar();" class="b__encriptar">Encriptar</button>
+            <button onclick="desencriptar();" class="b__desencriptar">Desencriptar</button>
+            </div>
+        </div>
+        <!-- <div class="div__botones">
+            <div class="encriptar">
+                
+            </div>
+            <div>
+               
+            </div>
+            
+        </div> -->
+        <div class="div__muneco">
+            <div class="img__muneco">
+                
+                <div class="titulo__muneco">
+                    <img src="./assets/Muñeco.png" class="posion__muneco">     
+                    
+                </div>
+                <div class="mensjae__img">
+                    <samp class="mensaje1">Ningún mensaje fue encontrado</samp>
+                    
+                    <samp class="mensjae2">Ingresa el texto que desees encriptar o desencriptar</samp>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+    </div>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+<footer>
+    
+</footer>
+</html>
